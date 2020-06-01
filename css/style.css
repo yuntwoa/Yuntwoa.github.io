@@ -1143,13 +1143,26 @@ img {
   margin-left: -0.5rem;
 }
 .category-list > .category-list-item {
-  display: inline-block;
-  padding: 0.5rem 1rem;
+  display: block;
+  padding: 2rem 4rem;
 }
 .category-list > .category-list-item:before {
   content: "\f18c";
   font-family: feathericon;
   margin-right: 0.5rem;
+}
+.category-list > .category-list-item > .category-list-link{
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+.category-list > .category-list-item > .category-list-count:before{    
+    content: '----';
+    display: inline-block;
+    margin-left: 20px;
+}
+.category-list > .category-list-item > .category-list-count:after{    
+    content: '篇';
 }
 .tag-list {
   list-style: none;
