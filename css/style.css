@@ -1345,6 +1345,23 @@ img {
   font-family: feathericon;
   opacity: 0.5;
 }
+.category-list-item {
+  display: block !important;
+  padding: 2rem 4rem !important;
+}
+.category-list-link {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+.category-list-count::before {
+  content: '----';
+  display: inline-block;
+  margin-left: 20px;
+}
+.category-list-count::after {
+  content: '篇';
+}
 .article-category {
   display: inline-block;
   margin-left: 1.5rem;
