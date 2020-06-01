@@ -1164,6 +1164,9 @@ img {
 .category-list > .category-list-item > .category-list-count:after{    
     content: '篇';
 }
+.category-list > .category-list-item > .category-list-child > .category-list-item:before{    
+    content: '----';
+}
 .tag-list {
   list-style: none;
   padding-left: 0;
