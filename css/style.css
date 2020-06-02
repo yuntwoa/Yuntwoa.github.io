@@ -1167,6 +1167,7 @@ img {
 .category-list > .category-list-item > .category-list-child > .category-list-item:before{    
     content: '';
     display: inline-block;
+    margin-right: 10px;
     height: 10px;
     width: 10px;
     border-radius: 5px;
